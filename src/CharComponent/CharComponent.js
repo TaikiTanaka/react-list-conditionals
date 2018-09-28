@@ -3,13 +3,10 @@ import './CharComponent.css';
 
 const charComponent=(props)=>{
     return(
-    <div>
-        <p 
+    <div
         className='charComponent'
-        value={props.value}
         onClick={props.click}
-        >
-        I am the Char Component: {props.char}</p>
+        >{props.char}
     </div>
     )
 }
