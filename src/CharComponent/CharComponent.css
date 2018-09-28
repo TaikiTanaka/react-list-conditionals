@@ -1,0 +1,7 @@
+.charComponent{
+    padding: 16px, 16px;
+    display: inline block;
+    text-align: center;
+    margin: 16px;
+    border: 1px solid black;
+}
